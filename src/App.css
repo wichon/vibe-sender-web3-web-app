@@ -20,15 +20,70 @@
 
 .bio {
   text-align: center;
-  color: gray;
+  color: #ffff80;
   margin-top: 16px;
 }
 
-.waveButton {
+.formContainer {
+  color: white;
+  font-size: 18px;
+  text-align: center;
+}
+
+.vibeButton {
   cursor: pointer;
-  margin-top: 16px;
+  margin-top: 10px;
+  margin-left: 5px;
+  margin-right: 5px;
   padding: 8px;
   border: 0;
   border-radius: 5px;
-  
+  font-size: 20px;
+  background-color: #9580ff;
+}
+
+.vibeMessage {
+  margin-top: 10px;
+  margin-left: 5px;
+  margin-right: 5px;
+  padding: 8px;
+  border-width: 1px;
+  border-radius: 5px;
+  font-size: 24px;
+  width: 144px
+}
+
+.warning {
+  text-align: center;
+  color: #ffff80;;
+  margin-top: 16px;
+}
+
+.footer {
+  text-align: center;
+  margin-top: 50px;
+  font-size: 24px;
+}
+
+.emojiPicker {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.vibeBlock {
+  background-color: #383a59;
+  margin-top: 16px;
+  padding: 8px;
+  border-width: 1px;
+  border-radius: 5px;
+}
+
+.vibeScoreResult {
+  background-color: rgb(42, 44, 55);
+  margin-top: 16px;
+  padding: 8px;
+  border-width: 1px;
+  border-radius: 5px;
+  font-size: 20px;
+  color: #8aff80;
 }
